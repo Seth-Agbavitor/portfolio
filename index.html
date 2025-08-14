@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seth Kofi Agbavitor - Portfolio</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link Tailwind or custom CSS -->
+    <script defer src="script.js"></script> <!-- Defer for performance -->
+</head>
+<body class="bg-gray-100 font-sans"> <!-- Tailwind classes for example -->
+
+    <!-- Navigation -->
+    <header class="fixed top-0 w-full bg-white shadow-md">
+        <nav class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <h1 class="text-2xl font-bold">Seth Kofi Agbavitor</h1>
+            <ul class="flex space-x-6">
+                <li><a href="#about" class="hover:text-blue-500">About</a></li>
+                <li><a href="#skills" class="hover:text-blue-500">Skills</a></li>
+                <li><a href="#projects" class="hover:text-blue-500">Projects</a></li>
+                <li><a href="#contact" class="hover:text-blue-500">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="h-screen flex items-center justify-center bg-blue-500 text-white">
+        <div class="text-center">
+            <h2 class="text-4xl font-bold">Hi, I am a recent graduate with a Master’s degree in Computer Science and a strong interest in using technology to address real-world challenges. Over the past few years, I have developed a passion for creating systems that are efficient, reliable, and user-friendly.
+
+Through my studies and hands-on experience, I have learned how software can enhance daily tasks and drive innovation. I enjoy learning new skills, tackling challenges, and collaborating with others to achieve common goals.
+
+I am now seeking a full-time position where I can grow professionally, contribute to meaningful projects, and be part of a team that values progress and collaboration.</h2>
+            
+            <a href="#projects" class="mt-4 inline-block bg-white text-blue-500 px-6 py-2 rounded">View Projects</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-16 container mx-auto px-4">
+        <h2 class="text-3xl font-bold mb-8 text-center">About Me</h2>
+        <div class="flex flex-col md:flex-row items-center">
+            <img src="images/seth5.jpg" alt="My Profile Photo" class="w-32 h-32 rounded-full mb-4 md:mb-0 md:mr-8">
+            <p class="text-lg">
+            I am Seth Kofi Agbavitor, a Master’s graduate in Computer Science from the University of Stavanger with expertise in software testing, automation, AI, and data science. 
+            Skilled in Python, C#, Azure DevOps, and modern testing tools, I enjoy creating reliable and efficient solutions that solve real-world problems. 
+            I also have strong experience in data analysis and machine learning, applying them to improve decision-making and optimize processes. 
+            My recent work with ABB Robotics involved building an AI-based test scheduling system that reduced execution time by 20%.
+        </p>
+        </div>
+    </section>
+
+   <!-- Skills Section -->
+<section id="skills" class="py-16 bg-gray-200">
+    <div class="container mx-auto px-4">
+        <h2 class="text-3xl font-bold mb-8 text-center">Skills</h2>
+        <ul class="grid grid-cols-2 md:grid-cols-4 gap-4">
+            <li class="bg-white p-4 rounded shadow text-center">Python</li>
+            <li class="bg-white p-4 rounded shadow text-center">C#</li>
+            <li class="bg-white p-4 rounded shadow text-center">JavaScript</li>
+            <li class="bg-white p-4 rounded shadow text-center">TypeScript</li>
+            <li class="bg-white p-4 rounded shadow text-center">HTML</li>
+            <li class="bg-white p-4 rounded shadow text-center">CSS</li>
+            <li class="bg-white p-4 rounded shadow text-center">Selenium</li>
+            <li class="bg-white p-4 rounded shadow text-center">Postman</li>
+            <li class="bg-white p-4 rounded shadow text-center">PyTest</li>
+            <li class="bg-white p-4 rounded shadow text-center">MSTest</li>
+            <li class="bg-white p-4 rounded shadow text-center">REST APIs</li>
+            <li class="bg-white p-4 rounded shadow text-center">Jira</li>
+            <li class="bg-white p-4 rounded shadow text-center">Xray</li>
+            <li class="bg-white p-4 rounded shadow text-center">Azure DevOps</li>
+            <li class="bg-white p-4 rounded shadow text-center">Git</li>
+            <li class="bg-white p-4 rounded shadow text-center">Google OR-Tools</li>
+            <li class="bg-white p-4 rounded shadow text-center">Statistical Analysis</li>
+            <li class="bg-white p-4 rounded shadow text-center">Machine Learning</li>
+            <li class="bg-white p-4 rounded shadow text-center">Data Visualization</li>
+            <li class="bg-white p-4 rounded shadow text-center">Confluence</li>
+        </ul>
+    </div>
+</section>
+
+   <!-- Projects Section -->
+<section id="projects" class="py-16 container mx-auto px-4">
+    <h2 class="text-3xl font-bold mb-8 text-center">Projects</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="bg-white p-4 rounded shadow">
+            <!--<img src="images/thesis.png" alt="AI Test Scheduling" class="w-full h-40 object-cover mb-4"> -->
+            <h3 class="text-xl font-bold">Master Thesis: AI-Based Software Test Case Scheduling System</h3>
+            <p class="text-sm">Developed an AI system for ABB Robotics using reinforcement learning and Google OR-Tools’ CP-SAT solver to optimize test case scheduling, reducing execution time by 20%. Automated tests with Python and REST APIs, integrated with Azure DevOps and Cosmos DB. Tech: C#, Python, Azure DevOps, Google OR-Tools.</p>
+            <a href="https://github.com/Seth-Agbavitor/Master-Thesis" class="text-blue-500">GitHub</a>
+        </div>
+        <div class="bg-white p-4 rounded shadow">
+           <!-- <img src="assets/diabetes-prediction.jpg" alt="Diabetes Prediction" class="w-full h-40 object-cover mb-4"> -->
+            <h3 class="text-xl font-bold">Diabetes Patient Re-admission Prediction</h3>
+            <p class="text-sm">Built a supervised machine learning model in Python to predict diabetes patient re-admissions by analyzing large datasets for risk patterns. Improved accuracy using data analysis and visualization techniques. Tech: Python, Machine Learning, Data Visualization.</p>
+            <a href="https://github.com/Seth-Agbavitor/Diabetes-Patient-Readmission" class="text-blue-500">GitHub</a>
+        </div>
+        <div class="bg-white p-4 rounded shadow">
+           <!-- <img src="assets/data-intensive.jpg" alt="Big Data Processing" class="w-full h-40 object-cover mb-4">-->
+            <h3 class="text-xl font-bold">Big Data Processing: Iowa Liquor Sales</h3>
+            <p class="text-sm">Designed a data pipeline using Hadoop and Spark to process the Iowa Liquor Sales dataset, optimizing performance with caching and data cleanup for reliable, high-quality results. Tech: Hadoop, Spark, Data Processing.</p>
+            <a href="https://github.com/Seth-Agbavitor/Data-Intensive-Systems" class="text-blue-500">GitHub</a>
+        </div>
+        <div class="bg-white p-4 rounded shadow">
+            <!--<img src="assets/discrete-simulation.jpg" alt="Discrete Simulation" class="w-full h-40 object-cover mb-4"> -->
+            <h3 class="text-xl font-bold">Discrete Simulation: Soccer Boot Manufacturing</h3>
+            <p class="text-sm">Developed a discrete event simulation to optimize and analyze a leather soccer boot manufacturing workflow using MATLAB and the General Purpose Petri Net Simulator (GPenSim) with Petri Net models. Tech: MATLAB, GPenSim, Petri Nets.</p>
+            <a href="https://github.com/Seth-Agbavitor/Discrete-Simulation-and-Performance-Analysis" class="text-blue-500">GitHub</a>
+        </div>
+        <div class="bg-white p-4 rounded shadow">
+           <!-- <img src="assets/chic-closet.jpg" alt="CHIC CLOSET E-Commerce" class="w-full h-40 object-cover mb-4">-->
+            <h3 class="text-xl font-bold">CHIC CLOSET E-Commerce Website</h3>
+            <p class="text-sm">Built an e-commerce platform with a product gallery, shopping cart, and category-based filtering using SQL queries. Features a responsive UI with Bootstrap’s card layout and SQLite for data storage. Tech: Python Flask, HTML, JavaScript, CSS, Jinja2, SQLite, jQuery, Bootstrap.</p>
+            <a href="https://github.com/Seth-Agbavitor/Web-Development-CHIC-CLOSET-An-E-Commerce-Website" class="text-blue-500">GitHub</a>
+        </div>
+    </div>
+</section>
+
+   <!-- Contact Section -->
+   <section id="contact" class="py-16 bg-gray-200">
+       <div class="container mx-auto px-4">
+           <h2 class="text-3xl font-bold mb-8 text-center">Get in Touch</h2>
+           <form class="max-w-md mx-auto" action="https://formspree.io/f/xeoznlwd" method="POST">
+               <input type="text" name="name" placeholder="Name" class="w-full p-2 mb-4 border rounded" required>
+               <input type="email" name="email" placeholder="Email" class="w-full p-2 mb-4 border rounded" required>
+               <textarea name="message" placeholder="Message" class="w-full p-2 mb-4 border rounded h-32" required></textarea>
+               <button type="submit" class="bg-blue-500 text-white px-6 py-2 rounded">Send</button>
+           </form>
+       </div>
+   </section>
+
+    <!-- Footer -->
+    <footer class="py-4 bg-white text-center">
+        <p>&copy; 2025 Seth Kofi Agbavitor. All rights reserved.</p>
+        <div class="mt-2">
+            <a href="https://github.com/Seth-Agbavitor" class="mx-2">GitHub</a>
+            <a href="https://www.linkedin.com/in/seth-kofi-agbavitor-008435233/" class="mx-2">LinkedIn</a>
+        </div>
+    </footer>
+
+</body>
+</html>
