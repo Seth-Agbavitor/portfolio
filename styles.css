@@ -19,6 +19,16 @@ nav ul li a:hover { color: #007bff; }
 section { padding: 4rem 0; }
 h2 { font-size: 2rem; margin-bottom: 2rem; text-align: center; }
 
+/* GitHub Links */
+.github-link {
+    color: #007bff; /* Blue font, matches header hover */
+    text-decoration: underline;
+    transition: color 0.3s;
+}
+.github-link:hover {
+    color: #0056b3; /* Darker blue on hover */
+}
+
 /* Responsive */
 @media (max-width: 768px) {
     nav ul { flex-direction: column; }
