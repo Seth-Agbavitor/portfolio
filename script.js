@@ -8,7 +8,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
-// Form submission (basic example, use a backend like Formspree for real emails)
+// Form submission 
 const form = document.querySelector('form');
 form.addEventListener('submit', (e) => {
     e.preventDefault();
